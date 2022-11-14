@@ -1,0 +1,98 @@
+baseURL: 'https://0xakarii.github.io/' # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Alva Radian
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: 'English'
+    profileMode:
+      enabled: true
+      title: Alva Radian
+      imageUrl: 'https://radianid.my.id/images/images.jpg'
+      imageTitle: Alva Radian
+      imageWidth: 200
+      imageHeight: 200
+      subtitle: 'Bug Hunter | Freelancer | Penetration Tester'
+      buttons:
+        - name: Blog
+          url: 'https://blog.radianid.my.id'
+
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 5
+        - name: Portfolio
+          url: portfolio/
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: 'Profile Alva Radian'
+  author: ['Theme PaperMod', 'Alva Radian']
+  label:
+    text: 'Home'
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  #   ShowShareButtons: true
+  #   ShowReadingTime: true
+  # disableSpecial1stPost: true
+  #   displayFullLangName: true
+  #   ShowPostNavLinks: true
+  #   ShowBreadCrumbs: true
+  #   ShowCodeCopyButtons: true
+  #   ShowRssButtonInSectionTermList: true
+  #   ShowToc: true
+  # comments: false
+  #   images: ['papermod-cover.png']
+
+  socialIcons:
+    - name: Twitter
+      url: 'https://twitter.com/0xAkarii'
+    - name: GitHub
+      url: 'https://github.com/0xAkarii'
+    - name: Email
+      url: mailto:alvaradian.id@gmail.com
+    - name: LinkedIn
+      url: 'https://www.linkedin.com/in/alva-radian/'
+    - name: Instagram
+      url: 'https://instagram.com/radian.id_/'
+    - name: Rss
+      url: 'index.xml'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
