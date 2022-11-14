@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Alva Radian</title>
+    <link>https://0xakarii.github.io/</link>
+    <description>Recent content on Alva Radian</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://0xakarii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://0xakarii.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://0xakarii.github.io/about/</guid>
+      <description>Hi, my name is Alva Radian, you can call me Alva or Radian. I love computers since I was a kid. I started learning about cybersecurity in 2019. I learned about penetration testing especially on a website application, and from 2019 - the present I was doing bug bounty and some project penetration testing on website applications.
+I’m not a professional penetration tester as you think. There are still more that I have to learn about cybersecurity especially penetration testing on Android, iOS, and other application.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://0xakarii.github.io/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://0xakarii.github.io/portfolio/</guid>
+      <description>Bug Bounties and Hall of Fame Google PlayStation Magisto (Program disabled moved to Vimeo) Go-JEK (Program closed moved to Hackerone) Zapier UXCam Secured Blibli Secured Tokopedia Secured Halodoc 3 Private Program at Hackerone 1 Private Program at Bugcrowd Certificate Appreciation Rencanamu Tokopedia Pasarro </description>
+    </item>
+    
+    
+  </channel>
+</rss>
