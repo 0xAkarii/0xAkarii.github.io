@@ -22,7 +22,7 @@ languages:
     profileMode:
       enabled: true
       title: Alva Radian
-      imageUrl: 'https://radianid.my.id/images/images.jpg'
+      imageUrl: 'https://raw.githubusercontent.com/0xAkarii/0xakarii.github.io/main/images/avatar.jpg'
       imageTitle: Alva Radian
       imageWidth: 200
       imageHeight: 200
